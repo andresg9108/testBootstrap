@@ -1,0 +1,78 @@
+section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+h1{
+  font-size: 2.5rem;
+}
+.section-red{
+  color: #fff;
+  background-color: #660000;
+}
+.section-titulo{
+  font-size: 2rem;
+  padding: 15px 0;
+}
+.section-texto{
+  font-size: 1.2rem;
+}
+
+/* Navbar */
+.navbar{
+  padding: 2rem;
+  background-color: #404040;
+}
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-brand > img{
+  display: none;
+}
+@media screen and (min-width: 767px){
+  .navbar-brand > img{
+    display: block;
+  }
+}
+/* End Navbar */
+
+/* Section Hero */
+.hero{
+  text-align: center;
+  min-height: 450px;
+  background-color: #404040;
+}
+.hero-principal{
+  padding: 3rem;
+}
+.hero-imagen{
+  widows: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.hero-principal h2{
+  font-size: 1.5rem;
+  color: #bbb;
+}
+/* End Section Hero */
+
+/* Sobre mi */
+.sobre-mi{
+  height: 500px;
+  padding: 20px;
+}
+.sobre-mi > div{
+  max-width: 500px;
+  text-align: center;
+}
+/* End Sobre mi */
+
+/* Experiencia */
+.experiencia{
+  padding: 40px;
+}
+/* End Experiencia */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+
+    <title>Flexbox</title>
+
+    <link rel="icon" type="image/png" href="../imgs/caca.png">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../main.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <style>
+      .d-flex{
+        height: 400px;
+        background-color: #000;
+      }
+      .d-flex > div{
+        display: flex;
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        min-width: 100px;
+        min-height: 100px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #aa0000;
+      }
+      .d-flex > img{
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="../">Atrás</a></li>
+    </ul>
+
+    <div class="d-flex flex-column flex-wrap justify-content-center align-items-center">
+      <div class="rounded-circle">Hola</div>
+      <img class="img-fluid" src="../imgs/caca.png" alt="Caca">
+      <div>Mundo</div>
+      <img class="img-fluid" src="../imgs/caca.png" alt="Caca">
+    </div>
+  </body>
+</html>
