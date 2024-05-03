@@ -28,16 +28,22 @@
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#experiencias">Experiencias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonios</a>
+              <a class="nav-link" href="#proyectos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#articulos">Articulos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -56,7 +62,7 @@
     <!-- End Section Hero -->
 
     <!-- Sobre mi -->
-    <section class="sobre-mi section-red">
+    <section id="sobre-mi" class="sobre-mi section-red">
       <div>
         <h2 class="section-titulo">Conoce a Andrés González</h2>
         <p class="section-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -65,25 +71,298 @@
     <!-- End Sobre mi -->
 
     <!-- Experiencia -->
-    <section class="experiencia">
+    <section id="experiencias" class="experiencia">
       <div class="container text-center">
         <div class="row">
-          <div class="col-12 col-md-4">
+          <div class="experiencia-columna col-12 col-md-4">
+            <span class="bi bi-laptop"></span>
             <p class="experiencia-titulo">Desarrollo web</p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="experiencia-badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="experiencia-columna col-12 col-md-4">
+            <span class="bi bi-laptop"></span>
             <p class="experiencia-titulo">Articulos</p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="experiencia-badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="experiencia-columna col-12 col-md-4">
+            <span class="bi bi-laptop"></span>
             <p class="experiencia-titulo">Estudiante</p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="experiencia-badges-contenedor">
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- End Experiencia -->
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes d-flex flex-column">
+      <h2 class="section-titulo">Mis proyectos recientes</h2>
+      <h3 class="section-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./imgs/proyecto1.png" alt="">
+              <div class="proyectos-overlay">
+                <p>Proyecto 1</p>
+                <div class="proyectos-iconos-contenedor">
+                  <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-github"></span>
+                  </a>
+                  <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-laptop-fill"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./imgs/proyecto2.png" alt="">
+              <div class="proyectos-overlay">
+                <p>Proyecto 2</p>
+                <div class="proyectos-iconos-contenedor">
+                  <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-github"></span>
+                  </a>
+                  <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-laptop-fill"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./imgs/proyecto3.png" alt="">
+              <div class="proyectos-overlay">
+                <p>Proyecto 3</p>
+                <div class="proyectos-iconos-contenedor">
+                  <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-github"></span>
+                  </a>
+                  <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-laptop-fill"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./imgs/proyecto4.png" alt="">
+              <div class="proyectos-overlay">
+                <p>Proyecto 4</p>
+                <div class="proyectos-iconos-contenedor">
+                  <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-github"></span>
+                  </a>
+                  <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-laptop-fill"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./imgs/proyecto5.png" alt="">
+              <div class="proyectos-overlay">
+                <p>Proyecto 5</p>
+                <div class="proyectos-iconos-contenedor">
+                  <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-github"></span>
+                  </a>
+                  <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-laptop-fill"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./imgs/proyecto6.png" alt="">
+              <div class="proyectos-overlay">
+                <p>Proyecto 6</p>
+                <div class="proyectos-iconos-contenedor">
+                  <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-github"></span>
+                  </a>
+                  <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">
+                    <span class="bi bi-laptop-fill"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <span class="bi bi-arrow-right-circle-fill"></span>
+          </button>
+        <a>
+      </div>
+    </section>
+    <!-- End Proyectos -->
+
+    <!-- Articulos -->
+    <section id="articulos" class="articulos">
+      <h2 class="section-titulo">Articulos</h2>
+
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Fetch en JavaScript.</li>
+          </a>
+          <a href="https://freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Promesas en JavaScript.</li>
+          </a>
+          <a href="https://freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Props en React.</li>
+          </a>
+        </ul>
+      </div>
+
+      <a href="https://github.com/andresg9108?tab=stars" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más articulos
+          <span class="bi bi-arrow-right-circle-fill"></span>
+        </button>
+      <a>
+    </section>
+    <!-- End Articulos -->
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios">
+      <h2 class="section-titulo">Testimonios</h2>
+      <h3 class="section-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+      <!-- class="carousel-dark ..." -->
+      <div id="testimonios-carousel" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonios-imagen rounded-circle" src="./imgs/cliente1.svg" alt="Cliente #1">
+              <p class="testimonios-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="testimonios-info">
+                <p class="testimonios-info-cliente">Andrés González</p>
+                <p class="testimonios-info-cargo">Gerente</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonios-imagen rounded-circle" src="./imgs/cliente2.svg" alt="Cliente #2">
+              <p class="testimonios-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="testimonios-info">
+                <p class="testimonios-info-cliente">Carolina</p>
+                <p class="testimonios-info-cargo">Gerente</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonios-imagen rounded-circle" src="./imgs/cliente3.svg" alt="Cliente #3">
+              <p class="testimonios-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="testimonios-info">
+                <p class="testimonios-info-cliente">Daniel</p>
+                <p class="testimonios-info-cargo">Gerente</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+    </section>
+    <!-- End Testimonios -->
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto section-red">
+      <div class="container">
+        <div class="container contacto-rectangulo">
+          <div class="row">
+            <div class="col-12 col-md-4 section-titulo">¡Hablemos!</div>
+            <div class="col-12 col-md-4 contacto-descripcion">Contactame para iniciar tu proyecto de desarrollo web.</div>
+            <div class="col-12 col-md-4">
+              <button type="button">
+                  Contacto
+                <span class="bi bi-envelope-check"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contacto -->
+
+    <!-- Pie de página -->
+    <footer class="pie">
+      <img class="pie-icono" src="../imgs/caca.png" alt="Logo">
+      <p class="pie-texto">Aprendo y creo todos los días.<br>Creemos un proyecto juntos</p>
+      <div class="pie-redes">
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-twitter-x"></span>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-facebook"></span>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-instagram"></span>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-tiktok"></span>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-youtube"></span>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-github"></span>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <span class="bi bi-linkedin"></span>
+        </a>
+      </div>
+      <p class="pie-derechos">Creado por Andrés González (2024) &#169;</p>
+    </footer>
+    <!-- End Pie de página -->
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
